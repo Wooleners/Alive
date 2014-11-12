@@ -1,0 +1,26 @@
+{
+    "name": "annuityTouch",
+    "version": "0.0.0",
+    "homepage": "https://github.com/Wooleners/AnnuityTouch",
+    "authors": [
+        "wooleners"
+    ],
+    "description": "寿险移动官网",
+    "main": "app/",
+    "moduleType": [
+        "amd"
+    ],
+    "keywords": [
+        "mobile"
+    ],
+    "license": "MIT",
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "components",
+        "test",
+        "tests"
+    ]
+}
