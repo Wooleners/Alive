@@ -1,26 +1,28 @@
 {
-    "name": "annuityTouch",
-    "version": "0.0.0",
-    "homepage": "https://github.com/Wooleners/AnnuityTouch",
-    "authors": [
-        "wooleners"
-    ],
-    "description": "寿险移动官网",
-    "main": "app/",
-    "moduleType": [
-        "amd"
-    ],
-    "keywords": [
-        "mobile"
-    ],
-    "license": "MIT",
-    "private": true,
-    "ignore": [
-        "**/.*",
-        "node_modules",
-        "bower_components",
-        "components",
-        "test",
-        "tests"
-    ]
+  "name": "annuityTouch",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Wooleners/AnnuityTouch",
+  "authors": [
+    "wooleners"
+  ],
+  "description": "寿险移动官网",
+  "main": "app/",
+  "keywords": [
+    "mobile"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.15",
+    "ember": "~1.8.1",
+    "gulp": "~3.8.10"
+  }
 }
