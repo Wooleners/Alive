@@ -3,7 +3,7 @@
     line-height: 44px;
     color: #e95504;
     border-bottom: 1px solid #e95504;
-    font-size: 18px;
+    font-size: 1.8rem;
     position: relative;
     background-color: #fff;
 }
@@ -82,7 +82,7 @@ img{
     height: 90px;
     float: left;
     text-align: center;
-    font-size: 15px;
+    font-size: 1.5rem;
 }
 .tool-icon{
     display: inline-block;
@@ -115,7 +115,7 @@ img{
     height: 45px;
     line-height: 45px;
     padding: 0 20px;
-    font-size: 15px;
+    font-size: 1.5rem;
 }
 .product-cont2{
     padding: 0 10px;
@@ -152,7 +152,7 @@ img{
     background: -webkit-linear-gradient(top,#f5f5f5,#dedede);
     padding-left: 16px;
     padding-right: 30px;
-    font-size: 18px;
+    font-size: 1.8rem;
 }
 /**咨询信息Tab**/
 .consult-Tab{ background: #ffffff;}
@@ -173,20 +173,18 @@ img{
 .consult-cont{
     background: #ffffff;
 }
-.contentList1 li:before{
-    content: " ";
-    margin-left: -7px;
-    width: 8px;
-    height: 8px;
-    display: inline-block;
-    background: url("../images/disc.png") no-repeat;
-    background-size: 4px 4px;
-}
 .contentList1 li{
     padding: 13px 14px 13px 19px;
     border-bottom: 1px solid #dcdcdc;
     text-align: justify;
-    /*list-style: disc inside;*/
+    position: relative;
+}
+.contentList1 li:before{
+    content: ".";
+    font-size: 2.8rem;
+    position: absolute;
+    left: 6px;
+    top: 0;
 }
 .contentList1 a{
     color: #333;
@@ -217,10 +215,7 @@ img{
 /**footer**/
 footer{
     background: #dcdcdc;
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    margin-top: 20px;
 }
 .footer-copy{
     color: #aeaeae;
@@ -247,6 +242,51 @@ footer{
     margin-right: 10px;
 }
 /** end loading **/
+.word-pd1{
+    padding: 20px;
+    text-align: justify;
+}
+.word-wrap1{
+    margin: 15px 12px 0 12px;
+    border: 1px solid #dcdcdc;
+}
+.word-wrap1 div{
+    padding: 15px 18px;
+    text-align: justify;
+    line-height: 1.6rem;
+}
+.word-wrap1 div:first-child{
+    border-bottom: 1px solid #dcdcdc;
+    position: relative;
+}
+.word-wrap1 div:first-child:before{
+    content: ".";
+    font-size: 2.8rem;
+    position: absolute;
+    left: 6px;
+    top: 8px;
+}
+.sel-list{
+    padding: 15px 20px;
+    border-bottom: 1px solid #dcdcdc;
+}
+.arrow-r{
+    display: inline-block;
+    width: 7px;
+    height: 10px;
+    background: url("../images/arrow1.png") no-repeat;
+    background-size: 7px 10px;
+    margin: 3px 0;
+}
+.duty-wrap{
+    padding-bottom: 41px;
+    border-bottom: 1px solid #dcdcdc;
+}
+.duty{
+    width: 260px;
+    height: 175px;
+    margin: 0 auto;
+}
 /********public********/
 .clear{clear:both;}
 .c::after{content:".";display:block;font-size:0;height:0;clear:both;visibility:hidden;}
@@ -256,12 +296,19 @@ footer{
 .fl{ float: left;}
 .fr{ float: right;}
 .txt_c{ text-align: center;}
-.fs12{ font-size: 12px;}
-.fs14{ font-size: 14px;}
-.fs15{ font-size: 15px;}
-.fs16{ font-size: 16px;}
+.fs12{ font-size: 1.2rem;}
+.fs14{ font-size: 1.4rem;}
+.fs15{ font-size: 1.5rem;}
+.fs16{ font-size: 1.6rem;}
+.fs18{ font-size: 1.8rem;}
 .cl-666{ color: #666;}
 .cl-333{ color: #333;}
 .cl-9c0c0c{ color: #9c0c0c;}
+.bg-fff{ background-color: #fff;}
 .m-b12{ margin-bottom: 12px;}
 .m-r5{ margin-right: 5px;}
+.m-t15{ margin-top: 15px;}
+.m-t20{ margin-top: 20px;}
+.p-b15{ padding-bottom: 15px;}
+.bd-no{ border: none;}
+.bd-b-dc{ border-bottom: 1px solid #dcdcdc;}
