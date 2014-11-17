@@ -1,12 +1,20 @@
 {
-  "name": "angulseed",
-  "description": "A seed project of angular apps is built with bower and gulp",
-  "directory": "app/bower_components",
-  "version": "0.1.0",
-  "homepage": "https://github.com/BigKunLun/angulseed",
+  "name": "AnnuityTouch",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Wooleners/AnnuityTouch",
+  "authors": [
+    "wooleners <wooleners@gmail.com>"
+  ],
   "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "tests"
+  ],
   "dependencies": {
-    "angular": "1.2.26",
     "angular-route": "1.2.26",
     "bootstrap": "^3.2.0"
   }
