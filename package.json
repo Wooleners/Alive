@@ -1,0 +1,23 @@
+{
+  "name": "AnnuityTouch",
+  "version": "0.0.0",
+  "description": "AnnuityTouch",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.10.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Wooleners/AnnuityTouch.git"
+  },
+  "author": "wooleners",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wooleners/AnnuityTouch/issues"
+  },
+  "homepage": "https://github.com/Wooleners/AnnuityTouch"
+}
