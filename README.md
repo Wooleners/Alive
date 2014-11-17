@@ -1,4 +1,5 @@
-AnnuityTouch
-============
+# angulseed — A seed project of angular apps is built with bower and gulp.
 
-寿险移动官网
+angulseed 0.1.0 version is finished in preliminary.
+
+ReadMe is writing.

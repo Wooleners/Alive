@@ -1,28 +1,13 @@
 {
-  "name": "annuityTouch",
-  "version": "0.0.0",
-  "homepage": "https://github.com/Wooleners/AnnuityTouch",
-  "authors": [
-    "wooleners"
-  ],
-  "description": "寿险移动官网",
-  "main": "app/",
-  "keywords": [
-    "mobile"
-  ],
+  "name": "angulseed",
+  "description": "A seed project of angular apps is built with bower and gulp",
+  "directory": "app/bower_components",
+  "version": "0.1.0",
+  "homepage": "https://github.com/BigKunLun/angulseed",
   "license": "MIT",
-  "private": true,
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "components",
-    "test",
-    "tests"
-  ],
   "dependencies": {
-    "requirejs": "~2.1.15",
-    "ember": "~1.8.1",
-    "gulp": "~3.8.10"
+    "angular": "1.2.26",
+    "angular-route": "1.2.26",
+    "bootstrap": "^3.2.0"
   }
 }
