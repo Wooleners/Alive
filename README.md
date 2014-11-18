@@ -1,5 +1,13 @@
-# angulseed — A seed project of angular apps is built with bower and gulp.
+AnnuityTouch
+========
 
-angulseed 0.1.0 version is finished in preliminary.
 
-ReadMe is writing.
+Installation
+--------------
+
+```bash
+$ npm install gulp
+$ gulp
+$ npm start
+```
+tips: only one port
