@@ -5,7 +5,7 @@
 *
 * Description
 */
-angular.module('myApp.userService', ['ngResource']).factory('userFactory',['$resource','$http', function($resource,$http){
+angular.module('annuityApp.userService', ['ngResource']).factory('userFactory',['$resource','$http', function($resource,$http){
 
     // no restful
     var getUsersByHttp = function(postData){

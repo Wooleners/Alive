@@ -1,3 +1,6 @@
-components/
-node_modules/
 .DS_Store
+
+node_modules
+npm-debug.log
+bower_components
+app/

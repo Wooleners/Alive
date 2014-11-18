@@ -1,9 +1,9 @@
 'use strict';
 
-angular.module('myApp', [
+angular.module('annuityApp', [
   'ngRoute',
-  'myApp.module1',
-  'myApp.module2'
+  'annuityApp.module1',
+  'annuityApp.module2'
 ]);
 
 // (function(document,$,angular){
@@ -16,10 +16,10 @@ angular.module('myApp', [
 //         for (var i = 0; i < data.permissions.length; i++) {
 //           data.permissions[i] = data.permissions[i].replace(/\s/g,"");
 //         };
-//         angular.module('myApp').run(['$rootScope', function($rootScope){
+//         angular.module('annuityApp').run(['$rootScope', function($rootScope){
 //           $rootScope = data.permissions;
 //         }]);
-//         angular.bootstrap(document, ['myApp']);
+//         angular.bootstrap(document, ['annuityApp']);
 //     });
 //   });
 // })(document,jQuery,angular);

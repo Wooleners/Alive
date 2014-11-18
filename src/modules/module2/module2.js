@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp.module2', ['ngRoute'])
+angular.module('annuityApp.module2', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/module2', {

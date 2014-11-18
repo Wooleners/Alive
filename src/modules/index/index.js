@@ -1,4 +1,4 @@
-angular.module('myApp').controller('IndexCtrl', ['$scope',function($scope) {
-  $scope.h1 = "Hello Angulseed !";
-  console.log('myApp index load');
+angular.module('annuityApp').controller('indexCtrl', ['$scope',function($scope) {
+  $scope.h1 = "Hello annuityApp !";
+  console.log('annuityApp index load');
 }]);

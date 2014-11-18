@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp.directive', [])
+angular.module('annuityApp.directive', [])
   .directive('appVersion', ['version', function(version) {
     return function(scope, elm, attrs) {
       elm.text(version);
