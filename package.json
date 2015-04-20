@@ -1,18 +1,18 @@
 {
-  "name": "faller",
+  "name": "Saller",
   "version": "0.0.1",
   "description": "[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Wooleners/angularpro/trend.png)](https://bitdeli.com/free \"Bitdeli Badge\") gulpBase ========",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wooleners/gulpBase.git"
+    "url": "git+https://github.com/wooleners/Saller.git"
   },
   "author": "wooleners",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wooleners/gulpBase/issues"
+    "url": "https://github.com/wooleners/Saller/issues"
   },
-  "homepage": "https://github.com/wooleners/gulpBase",
+  "homepage": "https://github.com/wooleners/Saller",
   "devDependencies": {
     "http-server": "^0.6.1",
     "del": "^0.1.3",
