@@ -18,3 +18,14 @@ gulp.task('deploy',['clean:app'],function(){
   config.isDeploy = true;
   gulp.start('deploy:app');
 });
+
+//browserSync mode
+gulp.task('browser-sync', function() {
+    browserSync({
+        open: false,
+        index: "app/index.html",
+        server: {
+            baseDir: ""
+        }
+    });
+});
