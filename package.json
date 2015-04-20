@@ -1,7 +1,7 @@
 {
-  "name": "Saller",
+  "name": "saller",
   "version": "0.0.1",
-  "description": "[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Wooleners/angularpro/trend.png)](https://bitdeli.com/free \"Bitdeli Badge\") gulpBase ========",
+  "description": "myself javascript workflow",
   "main": "index.js",
   "repository": {
     "type": "git",
