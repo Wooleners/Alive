@@ -11,7 +11,15 @@ $ npm install gulp
 $ gulp
 $ npm start
 ```
-tips: only one port
+Mode 
+--------------
+
+```bash
+develop
+$ gulp
+deploy
+$ gulp deploy 
+```
 
 
 
