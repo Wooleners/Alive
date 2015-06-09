@@ -1,7 +1,4 @@
 ##Saller
-========
-
-####my self workflow
 
 Installation
 --------------
@@ -11,15 +8,20 @@ $ npm install gulp
 $ gulp
 $ npm start
 ```
+
 Mode 
 --------------
+develop 
 
 ```bash
-develop
 $ gulp
-deploy
+```
+deploy 
+
+```bash
 $ gulp deploy 
 ```
+
 
 
 
