@@ -1,7 +1,8 @@
 var gulp = require('gulp'),
     config = require('../config'),
     htmlReplace = require('gulp-html-replace'),
-    filenames = require('gulp-filenames');
+    filenames = require('gulp-filenames'),
+    zip = require('gulp-zip');
 
 gulp.task('dev:jsLib',function(){
   var jsStr = "<script src='/app/" + config.jsLib.join("'></script>"+"\r\t\t"+"<script src='/app/") + "'></script>";
@@ -37,5 +38,5 @@ gulp.task('dev:app',['dev:jsLib','dev:jsApp','dev:cssLib','dev:cssApp','dev:file
     'cssApp': config.loadSrc.cssApp,
     'jsLib': config.loadSrc.jsLib,
     'jsApp': config.loadSrc.jsApp
-  })).pipe(gulp.dest('app/'));
+  })).pipe(gulp.dest('app/')).pipe(zip()).pipe(gulp.dest('release/'));
 });
