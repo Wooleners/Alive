@@ -1,6 +1,6 @@
 /**
- * @description build develop directory
- * @author      wooleners
+ * @desc   build develop directory
+ * @author wooleners
  */
 
 var gulp = require("gulp"),

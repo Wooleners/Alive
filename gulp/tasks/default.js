@@ -20,6 +20,6 @@ gulp.task("deploy",["clean:app"],function(){
 });
 
 //build directory
-gulp.task("build", ["clean:app"], function(){
+gulp.task("build", function(){
   gulp.start("build");
 });
