@@ -5,7 +5,7 @@ var gulp = require("gulp"),
     autoprefixer = require("gulp-autoprefixer");
 
 gulp.task("build:less",function () {
-  var dest = config.isDeploy?"app/css/":"app/";
+  var dest = config.isDeploy ? "app/css/" : "app/";
   return gulp.src("src/modules/index/index.less")
     .pipe(less())
     .pipe(autoprefixer("last 1 version", "> 1%", "ie 8", "ie 7"))
