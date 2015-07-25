@@ -1,25 +1,27 @@
 #[Saller](http://github.com/wooleners/saller)
 
+
 ##Installation
 
-```javascript
+```bash
 $ npm install
 $ gulp
 $ npm start
 ```
 
-Mode
---------------
+##Mode
+
 **develop**
 
-```javascript
+```bash
 $ gulp
 ```
 
 **deploy**
 
-```javascript
+```bash
 $ gulp deploy
 ```
+
 
 ##Next ...
