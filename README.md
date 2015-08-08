@@ -5,7 +5,6 @@
 
 ```bash
 $ npm install
-$ gulp
 $ npm start
 ```
 
