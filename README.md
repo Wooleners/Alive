@@ -24,3 +24,4 @@ $ gulp deploy
 
 
 ##Next ...
+2.0 has been in development ！
