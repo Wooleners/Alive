@@ -1,18 +1,18 @@
 {
-  "name": "saller",
-  "version": "0.0.2",
+  "name": "alive",
+  "version": "0.0.3",
   "description": "myself javascript workflow",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wooleners/Saller.git"
+    "url": "https://github.com/wooleners/Alive.git"
   },
   "author": "wooleners",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wooleners/Saller/issues"
+    "url": "https://github.com/wooleners/Alive/issues"
   },
-  "homepage": "https://github.com/wooleners/Saller",
+  "homepage": "https://github.com/wooleners/Alive",
   "dependencies": {
     "browser-sync": "^2.6.4",
     "del": "^0.1.3",
@@ -36,9 +36,6 @@
     "gulp-zip": "^3.0.2",
     "http-server": "^0.6.1",
     "require-dir": "^0.1.0"
-  },
-  "bin": {
-    "saller": "bin/saller"
   },
   "scripts": {},
   "keywords": [

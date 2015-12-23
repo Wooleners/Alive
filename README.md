@@ -1,5 +1,6 @@
-#[Saller](http://github.com/wooleners/saller)
+#[Alive](http://github.com/wooleners/Alive)
 
+build angularjs webapp by gulp
 
 ##Installation
 
@@ -21,7 +22,3 @@ $ gulp
 ```bash
 $ gulp deploy
 ```
-
-
-##Next ...
-2.0 has been in development ！
